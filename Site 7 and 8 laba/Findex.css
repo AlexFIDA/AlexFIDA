@@ -1,0 +1,129 @@
+:root {
+  --background-color: rgb(25, 0, 0);
+  --text-color: hsl(196, 94%, 93%);
+}
+
+
+
+
+html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%; /* Высота на 100% для охвата всего окна браузера */
+   
+ }
+
+ body
+ {
+  /* background-image: url("https://files.tecnoblog.net/wp-content/uploads/2019/01/netflix-700x394.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   */
+  background-color:#0c0b0b;
+  color: var(--text-color); 
+  /*display: flex;
+  flex-direction: column; /* Располагает элементы по вертикали */
+ }
+
+
+
+ .content{
+  /*width: 1200px;
+  grid-template-columns: 1fr 300px;*/
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+} 
+
+ .block1 {
+  margin-top: 60px; 
+  margin-left: 50px;
+ }
+
+ .block2 {
+  margin-top: 60px; 
+  margin-left: 110px;
+}
+
+
+
+*/
+
+
+ .center {
+   text-align: center;
+ }
+
+ .Color {
+  background-color: aliceblue;
+ }
+
+ .header{
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 0px;
+ }
+
+ .Header_Inner{
+  display: flex;
+  background-color: rgba(69, 5, 2, 0.215);
+ }
+
+
+
+ .logo {
+  margin-right: 90px;
+  text-transform: uppercase; 
+  font-size: 28px; 
+  font-weight: 900; 
+  color: #ccebfd;
+}
+
+
+
+.Menu_list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.Menu_list_item {
+  margin-right: 35px; /* Добавляем отступ между пунктами меню */
+ }
+
+ .Menu_list_link{
+  text-decoration: none;
+  padding: 10px 20px; /* Увеличиваем вертикальный и горизонтальный отступы */
+  color: rgb(255, 215, 0); /* Устанавливаем цвет ссылок */
+  cursor: pointer; /* Задаём изменение вида курсора при наведении на пункты меню */
+  transition: all 0.3s; /* Добавляем плавное изменение стилей при наведении */
+ }
+
+ .Menu_list_link:hover {
+  color: #f18214; /* Задаём изменение цвета ссылок при наведении курсора */
+ }
+
+.phon_header {
+  background-color: black;
+}
+
+.footer {
+  background-color: #151515;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  /*margin-top: auto;*/
+}
+
+
+
+
+
+
+
+
+
+

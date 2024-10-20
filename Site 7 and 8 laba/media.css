@@ -1,0 +1,32 @@
+@media screen and (min-width: 319px) and (max-width: 376px) {
+
+    .logo {
+      margin-right: 10px; /* Уменьшает отступ справа у логотипа */
+      font-size: 22px; /* Можно уменьшить размер шрифта для мобильных устройств */
+    }
+  
+    .block2 {
+      margin-top: 60px; 
+      margin-left: 50px;
+    }
+  
+    .block1 img, .block2 img {
+      width: 200px; /* Изменяю ширину */
+      height: 250px; /* Изменяю высоту */
+  }
+  
+  }
+  
+  @media screen and (min-width: 377px) and (max-width: 430px) {
+  
+    .block2, .block1 {
+      margin-top: 60px; 
+      margin-left: 80px;
+    }
+  
+    .block1 img, .block2 img {
+      width: 200px; /* Изменяю ширину */
+      height: 250px; /* Изменяю высоту */
+  }
+  
+  }
